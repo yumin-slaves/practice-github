@@ -1,0 +1,47 @@
+# C++ 빌드 파일
+*.o
+*.obj
+*.lo
+*.slo
+
+*.d
+
+*.gch
+*.pch
+
+*.a
+*.lib
+*.la
+*.lai
+
+*.so
+*.dll
+*.dylib
+
+# 실행 파일
+*.exe
+*.out
+*.app
+
+### 🐧 Linux / 유닉스 관련 ###
+*~                         # 백업 파일
+.fuse_hidden*              # fuse 임시 파일
+.directory                 # KDE 디렉토리 설정
+.Trash-*                   # 휴지통
+.nfs*                      # 삭제 대기 파일
+
+---
+
+### 💻 Visual Studio Code ###
+.vscode/*
+
+# VSCode 확장 빌드
+*.vsix
+
+# VSCode 히스토리 플러그인
+.history/
+.ionide/
+
+# 기타
+/build
+run

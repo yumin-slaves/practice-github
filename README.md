@@ -4,8 +4,11 @@
 
 ## Build & Run
 ```bash
-cargo build
-cargo run
+make
+./run
+```
+```
+make clean
 ```
 
 ## Git 사용하기
@@ -27,7 +30,5 @@ git push
 1. git 세팅
 2. clone
 3. branch 만들기
-4. Rust 실습
+4. C++ 제네릭, modern C++ 실습
 5. commit 하고 push 하기
-
-## 
