@@ -6,8 +6,6 @@
 ```bash
 make
 ./run
-```
-```
 make clean
 ```
 
@@ -17,13 +15,15 @@ make clean
 
 ### 클론하기
 ```
-git clone
+git clone "github 주소"
 ```
 
 ### 브랜치
 ```
 git branch
 git checkout
+# or
+git checkout -b
 ```
 
 ### Commit Convention (권장 메시지 형식)
@@ -42,7 +42,7 @@ git checkout
 ```
 git pull
 git add .
-git commit -m "feat: commit message"
+git commit -m "feat: Add generic stack implementation"
 git push
 ```
 
