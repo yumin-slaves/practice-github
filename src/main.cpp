@@ -5,14 +5,24 @@
 
 using namespace std;
 
-/* TODO 리스트
-*
-* TODO 1: dev/(your_name) 브랜치 생성
-* TODO 2. add.h에 정의된 add를 수정하여 템플릿을 활용하는 add() 함수로 만들고
-  매개변수로 int, double을 매개변수로 넣어보고 commit 하기
-* TODO 3. C스타일에서 C++스타일로 리팩토링하고 commit 하기
-* TODO 4. dev/(your_name)에 feat/practice를 병합하기
-* TODO 5. Pull Request 해보기
+/* Git 실습 TODO 목록
+
+1. 브랜치 만들기
+    - main → dev/(your_name)
+    - dev/(your_name) → feat/practice
+
+2. add.h 수정
+    - 템플릿 함수 add<T>()로 변경
+    - 테스트
+
+3. 코드 리팩토링
+    - C 스타일 코드 → Modern C++ 스타일로 개선
+
+4. merge
+    - feat/practice → dev/(your_name) 병합
+
+5. Pull Request
+    - dev/(your_name) → main으로 PR 생성
 */
 
 int main() {
