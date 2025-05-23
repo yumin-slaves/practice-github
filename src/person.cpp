@@ -1,6 +1,6 @@
 #include <iostream>
 
-#include "person.h"
+#include "person.hpp"
 
 using namespace std;
 
@@ -10,7 +10,7 @@ int comp(const void *a, const void *b) {
     return x->age - y->age;
 }
 
-void func() {
+void print_person() {
     // 포인터 배열을 사용해야 할까?
     Person* people = new Person[4] {
         Person("서유민", 22, "PM"),

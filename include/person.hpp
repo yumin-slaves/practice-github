@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-void func();
+void print_person();
 
 class Person {
 private:

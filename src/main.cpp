@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "add.h"
-#include "person.h"
+#include "add.hpp"
+#include "person.hpp"
 
 using namespace std;
 
@@ -25,6 +25,10 @@ using namespace std;
     - dev/(your_name) → main으로 PR 생성
 */
 
+int add(int a, int b) {
+    return a + b;
+}
+
 int main() {
     std::cout << "Hello Linux!\n" << std::endl;
 
@@ -35,7 +39,7 @@ int main() {
     
     cout << endl;
 
-    func();
+    print_person();
 
     return 0;
 }
