@@ -30,4 +30,8 @@ public:
         this->age = age;
         this->role = role;
     }
+
+    bool operator<(const Person &other) const {
+        return this->age < other.age;
+    }
 };

@@ -25,9 +25,6 @@ using namespace std;
     - dev/(your_name) → main으로 PR 생성
 */
 
-int add(int a, int b) {
-    return a + b;
-}
 
 int main() {
     std::cout << "Hello Linux!\n" << std::endl;
